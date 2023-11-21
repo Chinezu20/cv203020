@@ -22,9 +22,29 @@ function setActiveStyle(color)
         else
         {
             style.setAttribute("disabled","true");
-        }
+        }   
     })
 }
+         function one()
+        {
+            document.getElementById('image').src='images/poza cv rosu.png';
+        }
+        function two()
+        {
+            document.getElementById('image').src='images/poza cv galben.png';
+        }
+        function tree()
+        {
+            document.getElementById('image').src='images/poza cv verde.png';
+        }
+        function four()
+        {
+            document.getElementById('image').src='images/poza.png';
+        }
+        function five()
+        {
+            document.getElementById('image').src='images/poza cv roz.png';
+        }
 /* ===================== theme light and dark mode ===================== */
 const dayNight = document.querySelector(".day-night");
 dayNight.addEventListener("click", () => {

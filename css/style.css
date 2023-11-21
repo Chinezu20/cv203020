@@ -409,9 +409,9 @@ h3.my-profession {
 }
 
 .home .home-img img {
+    background-image: var(--skin-color);
     margin: auto;
-    border-radius: 5px;
-    height: 400px;
+    height: 450px;
 }
 
 /* About */
